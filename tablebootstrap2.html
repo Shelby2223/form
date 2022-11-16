@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
 </head>
 <body>
+    <a href="http://127.0.0.1:5500/tablebootstrap2.html">clikc to see</a>
     <div class="container mt-3">
         <div class="row mb-2">
             <div class="btn-group col-md-7">
@@ -27,20 +28,30 @@
             </div>
         </div>
             <table class="table table-bordered">
-                <thead>
+                <thead class="text-middle">
                     <tr>
-                        <td rowspan="d"></td>
-                        <td rowspan="2">ID</td>
-                        <td rowspan="3">Product</td>
-                        <td rowspan="2">In stock</td>
-                        <td rowspan="2">Customer</td>
+                        <th rowspan="2" class="align-middle text-center" ><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="blue" class="bi bi-dash-square-fill" viewBox="0 0 16 16">
+                            <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm2.5 7.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1z"/>
+                          </svg></th>
+                        <th rowspan="2" class="align-middle text-center">ID</th>
+                        <th colspan="3" class="align-middle text-right" >Product</th>
+                        <th rowspan="2" class="align-middle text-left">In stock</th>
+                        <th colspan="2">Customer</th>
                     </tr>
                     <tr>
-                        <td>name</td>
-                        <td>prince</td>
-                        <td>Coupon</td>
-                        <td>name</td>
-                        <td>order</td>
+                        <th class="text-center">name<br><input class="btn border text-left" type="text" placeholder="Enter name..."></th>
+                        <th class="align-middle">prince<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                            <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                          </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
+                            <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
+                          </svg></th>
+                        <th class="align-middle">Coupon</th>
+                        <th class="align-middle">name</th>
+                        <th class="align-middle">order<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                            <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                          </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
+                            <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
+                          </svg></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -51,13 +62,13 @@
                             <label class="form-check-label" for="flexCheckDefault"></label>
                         </div>
                         </td>
-                        <td>0</td>
+                        <td><button class="btn form-control text-left">0</button></button></td>
                         <td class="text-center">Item name 0</td>
-                        <td>2100</td>
-                        <td>no</td>
-                        <td>yes</td>
-                        <td>Customer 0</td>
-                        <td>0</td>
+                        <td><button class="btn form-control text-left">1200</button></td>
+                        <td><button class="btn form-control text-left">no</button></td>
+                        <td><button class="btn form-control text-left">yes</button></td>
+                        <td><button class="btn form-control text-left">Customer 0</button></td>
+                        <td><button class="btn form-control text-left">0</button></td>
                     </tr>
                     <tr>
                         <td>
@@ -66,13 +77,13 @@
                             <label class="form-check-label" for="flexCheckDefault"></label>
                         </div>
                         </td>
-                        <td>1</td>
+                        <td><button class="btn form-control text-left">1</button></td>
                         <td class="text-center">Item name 1</td>
-                        <td>2100</td>
-                        <td>no</td>
-                        <td>yes</td>
-                        <td>Customer 1</td>
-                        <td>1</td>
+                        <td><button class="btn form-control text-left">1200</button></td>
+                        <td><button class="btn form-control text-left">no</button></td>
+                        <td><button class="btn form-control text-left">yes</button></td>
+                        <td><button class="btn form-control text-left">Customer 1</button></td>
+                        <td><button class="btn form-control text-left">1</button></td>
                     </tr>
                     <tr style="background-color:rgb(133, 165, 235);">
                         <td>
@@ -81,13 +92,13 @@
                             <label class="form-check-label" for="flexCheckDefault"></label>
                         </div>
                         </td>
-                        <td>2</td>
+                        <td><button class="btn form-control text-left">2</button></td>
                         <td class="text-center">Item name 2</td>
-                        <td>2100</td>
-                        <td>no</td>
-                        <td>yes</td>
-                        <td>Customer 2</td>
-                        <td>2</td>
+                        <td><button class="btn form-control text-left">1200</button></td>
+                        <td><button class="btn form-control text-left">no</button></td>
+                        <td><button class="btn form-control text-left">yes</button></td>
+                        <td><button class="btn form-control text-left">Customer 2</button></td>
+                        <td><button class="btn form-control text-left">2</button></td>
                     </tr>
                     <tr>
                         <td>
@@ -96,13 +107,13 @@
                             <label class="form-check-label" for="flexCheckDefault"></label>
                         </div>
                         </td>
-                        <td>3</td>
+                        <td><button class="btn form-control text-left">3</button></td>
                         <td class="text-center">Item name 3</td>
-                        <td>2100</td>
-                        <td>no</td>
-                        <td>yes</td>
-                        <td>Customer 3</td>
-                        <td>3</td>
+                        <td><button class="btn form-control text-left">1200</button></td>
+                        <td><button class="btn form-control text-left">no</button></td>
+                        <td><button class="btn form-control text-left">yes</button></td>
+                        <td><button class="btn form-control text-left">Customer 3</button></td>
+                        <td><button class="btn form-control text-left">3</button></td>
                     </tr>
                     <tr>
                         <td>
@@ -111,13 +122,13 @@
                             <label class="form-check-label" for="flexCheckDefault"></label>
                         </div>
                         </td>
-                        <td>4</td>
+                        <td><button class="btn form-control text-left">4</button></td>
                         <td class="text-center">Item name 4</td>
-                        <td>2100</td>
-                        <td>no</td>
-                        <td>yes</td>
-                        <td>Customer 4</td>
-                        <td>4</td>
+                        <td><button class="btn form-control text-left">1200</button></td>
+                        <td><button class="btn form-control text-left">no</button></td>
+                        <td><button class="btn form-control text-left">yes</button></td>
+                        <td><button class="btn form-control text-left">Customer 4</button></td>
+                        <td><button class="btn form-control text-left">4</button></td>
                     </tr>
                     <tr style="background-color:rgb(133, 165, 235);">
                         <td>
@@ -126,30 +137,14 @@
                             <label class="form-check-label" for="flexCheckDefault"></label>
                         </div>
                         </td>
-                        <td>5</td>
+                        <td><button class="btn form-control text-left">5</button></td>
                         <td class="text-center">Item name 5</td>
-                        <td>2100</td>
-                        <td>no</td>
-                        <td>yes</td>
-                        <td>Customer 5</td>
-                        <td>5</td>
+                        <td><button class="btn form-control text-left">1200</button></button></td>
+                        <td><button class="btn form-control text-left">no</button></td>
+                        <td><button class="btn form-control text-left">yes</button></td>
+                        <td><button class="btn form-control text-left">Customer 5</button></td>
+                        <td><button class="btn form-control text-left">5</button></td>
                     </tr>
-                    <tr>
-                        <td>
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                            <label class="form-check-label" for="flexCheckDefault"></label>
-                        </div>
-                        </td>
-                        <td>6</td>
-                        <td class="text-center">Item name 6</td>
-                        <td>2100</td>
-                        <td>no</td>
-                        <td>yes</td>
-                        <td>Customer 6</td>
-                        <td>6</td>
-                    </tr>
-
                 </tbody>
             </table>
     </div>
