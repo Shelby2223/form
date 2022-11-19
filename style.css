@@ -36,7 +36,10 @@ input::placeholder {
 }
 .item-center-top{
     color: #f26522;
-    width: 50%;
+    width: 97.5%;
+    background-color: #ffffff;
+    margin: 0 0 0 2%;
+    
     
 }
 .item-center-bottom{
@@ -45,7 +48,7 @@ input::placeholder {
 
 .item-center-bottom input[type=text] {
     font-size: 100%;
-    width: 80%;
+    width: 90%;
     padding: 0% 5% ;
     margin: 1% 0% 2% 2%;
     box-sizing: border-box;
@@ -64,4 +67,54 @@ input::placeholder {
 }
 .item-center-bottom:hover button{
     background-color: #fd7e14;
+}
+.item-right{
+    display: flex;
+    width: 20%;
+}
+.fas{
+    transform: rotateY(180deg);
+    font-size: 280%;
+    margin-left: 5%;
+    color:#ffffff;
+}
+.cartCount{
+    background-color: #f26522;
+    color: rgb(241, 232, 232) ;
+    text-decoration: none;
+    border-radius: 50% 50%;
+    margin: 2.5% 2% 0% -2.5% ;
+    display: inline-block;
+    height: 10%;
+}
+.achu2{
+    text-decoration: none;
+    color: white;
+    margin: 2% 1% 0 0 ; 
+}
+.achu1{
+    text-decoration: none;
+    color: white;
+    margin: 2% 1% 0 0 ; 
+}
+.achu{
+    text-decoration: none;
+    color: white;
+    margin: 2% 1% 0 0 ; 
+}
+.gachthang{
+    font-size: 150%;
+    margin:-1% 2% 0% 0%;
+    color: #ffffff;
+}
+.fa{
+    color: #ffffff;
+    margin: 3% 2% 0 0;;
+    font-size: 130%;
+}
+.achu1:hover{
+    color: #f26522;
+}
+.achu2:hover{
+    color: #f26522;
 }
