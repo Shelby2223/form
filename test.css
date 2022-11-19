@@ -1,0 +1,253 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    background: rgba(98, 95, 91, 0.509);
+    height: 4000px;
+}
+.hearder{
+    background-color: black;
+    display: grid; 
+    grid-template-columns: 25% 50% 25%;
+}
+.h3{
+    color: aliceblue;
+    font-size: 25px;
+}
+a{
+    background: white;
+}
+
+
+.input-container {
+    
+    display: flex;
+    width: 100%;
+    height: 60px;
+    padding: 20px;
+    
+}
+.shop{
+    padding: 10px;
+}
+
+.icon {
+    padding: 20px;
+    background: rgb(255, 83, 30);
+    color: white;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+   
+
+}
+
+.input-field {
+    width: 80%;
+    padding: 10px;
+    outline: none;
+    }
+
+.input-field:focus {
+    border: 4px solid rgb(255, 101, 30);
+}
+
+
+  
+    
+ 
+.icon1{
+    color: aliceblue;
+    margin-top: 35 ;
+}
+.big_img{
+    width: 80%;
+    
+    border: 10px solid white;
+    margin-left: 10%;
+    
+    
+}
+
+.left{
+    margin-left: 15%; 
+    
+}
+.h3 table{
+    display: none;
+    font-size: 22px;
+}
+
+.h3:hover table{
+    display: block;
+
+}
+.h3:hover{
+    width:fit-content;
+    background: orange;
+}
+.h3 table th:hover{
+    background: orange;
+    
+}
+.h3 table td:hover{
+    background: orange;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    grid-gap: 10px;
+    background-color: #eff5f9;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 5px 0;
+    font-size: 30px;
+  }
+  .font{
+    font-size: 15px;
+  }
+  .grid-container{
+    margin-left:10% ;
+    margin-right:9% ;
+  }
+  .sanphammoinhat{
+    display: flex;
+    
+    padding-left: 10%;
+    padding-top: 30px;
+    
+
+  }
+  .i{
+    color: orangered;
+    font-size: 30px;
+  }
+  .ii{
+    color: black;
+    font-size: 30px;
+  }
+  .ii:hover{
+    color: orangered;
+  }
+  .sp_maykhoan{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto ;
+    grid-gap: 1px;           
+    padding-left: 80px;
+    padding-top: 10px;
+  } 
+ .mk11{
+    height: 250px;
+    width: 250px;
+    padding-top: 20px;
+    
+ }
+ .price{
+    font-size: 25px;
+    color: tomato;
+    padding-top: 20px;
+    margin-left: 25px;
+ }
+ .price_old{
+    font-size: 20px;
+    margin-left: 10px;  
+
+ }
+
+ .title{
+    font-size: 20px;
+    padding-top: 20px;
+    margin-left: 10px;
+ }
+ .title:hover{
+    color: tomato;
+   
+ }
+ .video{
+    display: grid;
+    grid-template-columns: 10% 85% 50%;
+    padding-top: 40px;
+    padding-left: 100px;
+ }
+ .gio{
+    color:white;
+    width: 60px;
+    height:60px;
+   
+ }
+ .gio:hover{
+    border: 3px solid rgb(231, 86, 86);
+ }
+ .user{
+    color:white;
+    width: 50px;
+    height:50px;
+    margin-left: 7px;
+ }
+ .user:hover{
+    color: red;
+ }
+ p:hover{
+    color: red;
+ }
+.title1:hover{
+    color:red
+}
+h1:hover{
+    color: red;
+}
+.sp11{
+    background:rgb(0, 255, 55);
+}
+.body_black{
+    display: grid;
+    grid-template-columns: 10% 85% 10%;
+}
+.ảo1{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+#quang{
+    text-align: center;
+    width: 120px;
+    height: 60px;                                               
+    border: 3px solid #fff;
+    margin-top: 20%;
+     }               
+    #quang:hover{
+        background: #f26522 ;
+    }
+    .quang2:hover{
+        color: #f26522 ;
+    }
+    .qqq:hover{
+        color: orangered;
+    }
+    .product_sp_al{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        justify-content: center;
+        padding-left: 30px;
+    }
+    .tensp:hover{
+        
+        color: orangered;
+    }
+    .tensp{
+        font-size: 20px;
+    }
+    .dongia{
+        font-size: 30px;
+        color:#f26522
+        
+    }
+    .body22{
+        margin-top: 20px;
+    }

@@ -1,0 +1,6 @@
+.meni{
+    display: none;
+}
+.aqw:hover .meni{
+    display: block;
+}
