@@ -7,9 +7,10 @@
 .header{
     background-color: rgb(0, 0, 0);  
     height: 130px;  
-    position: relative;
+    position: fixed;
     display: flex;
     align-items: center;
+    width: 100%;
 }
 .item-left {
     margin: 5%;
@@ -33,13 +34,29 @@ input::placeholder {
     margin-left: -5%;
 }
 .item-center-top{
-    color: #f26522;
+    color: #ffffff;
     width: 97.5%;
-    background-color: #ffffff;
-    margin: 0 0 0 2%;
-    
-    
+    margin: 0 0 0% 2%;
+    overflow: hidden;
 }
+
+.marqueenheader .spanheader{
+    font-size: 14px;
+    font-family: Verdana;
+    animation: animateheaderct 25s infinite;
+    display: inline-block;
+    width: 130%;
+}
+
+@keyframes animateheaderct {
+    0% {
+            transform: translateX(97.5%);
+        }
+    100%{
+    transform: translateX(-97.5%);
+    }
+}
+
 .item-center-bottom{
     display: flex;
 }
@@ -52,7 +69,11 @@ input::placeholder {
     box-sizing: border-box;
     border: 3px solid #f26522;
     outline: none;
-  }
+  } 
+.item-center-bottom input{
+    padding-bottom: -20px
+}
+
 
 .item-center-bottom button{
     background-color: #f26522;

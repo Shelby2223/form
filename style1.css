@@ -12,18 +12,19 @@
     width: 85%;
 }
 .adanhmuc {
-    padding-bottom: 20px;
     color: white;
-    height: 20px;
+    padding-top: -5%;
     font-size: 20px;
     text-decoration: none;
 }
 .aqw li {
     list-style-type: none;
     
+    
 }
 .meni li a{
     text-decoration: none;
+    border-right: 2px solid #f26522;
 }
 .adanhmuc:hover{
     color: #fff;
