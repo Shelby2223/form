@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -43,9 +44,10 @@ input::placeholder {
 .marqueenheader .spanheader{
     font-size: 14px;
     font-family: Verdana;
-    animation: animateheaderct 25s infinite;
+    animation: animateheaderct 20s infinite;
     display: inline-block;
-    width: 130%;
+    width: 134%;
+    left: 200%;
 }
 
 @keyframes animateheaderct {
@@ -141,20 +143,3 @@ input::placeholder {
 
 
 
-
-/* -webkit-tap-highlight-color: transparent;
-line-height: 1.7;
--webkit-font-smoothing: antialiased;
--webkit-text-size-adjust: 100%;
-letter-spacing: 0.25px;
-font-size: 14px;
-color: #333;
-font-family: 'UTMFacebook';
-box-sizing: border-box;
-position: fixed;
-z-index: 9999;
-left: 10px;
-top: 50%;
-background: #f26522;
-border-radius: 5px;
-margin-top: -137px; */

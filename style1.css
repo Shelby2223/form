@@ -1,12 +1,12 @@
 
-.meni{
+.menuheader{
     display: none;
     
 }
-.aqw:hover .meni{
+.ulheaderdanhmuc:hover .menuheader{
     display: block;
 }
-.meni {
+.menuheader {
     position: absolute;
     background-color: white;
     width: 85%;
@@ -17,12 +17,12 @@
     font-size: 20px;
     text-decoration: none;
 }
-.aqw li {
+.ulheaderdanhmuc li {
     list-style-type: none;
     
     
 }
-.meni li a{
+.menuheader li a{
     text-decoration: none;
     border-right: 2px solid #f26522;
 }
