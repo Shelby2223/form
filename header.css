@@ -1,16 +1,75 @@
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 .header{
     background-color: rgb(0, 0, 0);  
-    height: 130px;  
+    height: 20%;  
     position: fixed;
     display: flex;
     align-items: center;
     width: 100%;
+}
+.menuheader{
+    display: none;
+}
+.ulheaderdanhmuc:hover .menuheader{
+    display: block;
+}
+.menuheader {
+    position: absolute;
+    background-color: white;
+    width: 85%;
+    border-right: 3px solid #f26522;
+    position: absolute;
+    height: 600%;
+    overflow: scroll;
+}
+.adanhmuc {
+    color: white;
+    padding-top: -5%;
+    font-size: 20px;
+    text-decoration: none;
+}
+.ulheaderdanhmuc li {
+    list-style-type: none;
+    
+    
+}
+.menuheader li a{
+    text-decoration: none;
+}
+.adanhmuc:hover{
+    color: #fff;
+} 
+.item-left {
+    margin: 5%;
+}
+.item-left-top{
+    position: relative;
+}
+.item-left-bottom{
+    padding-top: 0.5%;
+    position: absolute;
+    margin-left: -2%;
+}
+
+input,
+input::placeholder {
+    font: 100%/3 sans-serif;
+    
+}
+.item-center{
+    width: 50%;
+    margin-left: -5%;
+}
+.item-center-top{
+    color: #ffffff;
+    width: 97.5%;
+    margin: 0 0 0% 2%;
+    overflow: hidden;
 }
 .item-left {
     margin: 5%;

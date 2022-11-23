@@ -10,6 +10,8 @@
     position: absolute;
     background-color: white;
     width: 85%;
+    border-right: 3px solid #f26522;
+    position: absolute;
 }
 .adanhmuc {
     color: white;
@@ -24,7 +26,6 @@
 }
 .menuheader li a{
     text-decoration: none;
-    border-right: 2px solid #f26522;
 }
 .adanhmuc:hover{
     color: #fff;
