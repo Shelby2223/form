@@ -11,6 +11,7 @@ integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+f
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="bodycenter.css">
 </head>
 <body>
     <div class="header">
@@ -76,5 +77,78 @@ integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+f
           <a class="achu2 "href="">Đăng ký</a>
         </div>
     </div>
+    <div class="body">
+      <div class="container">
+        <div class="bodycenter">
+          <div class="content ">
+            <img class="mySlides" src="https://bizweb.dktcdn.net/100/365/442/themes/737549/assets/slider_1.png?1664720334923" style="width:100%">
+            <img class="mySlides" src="https://bizweb.dktcdn.net/100/365/442/themes/737549/assets/slider_2.png?1664720334923" style="width:100%">
+            <button class="button1" onclick="btnslide(-1)">&#10094;</button>
+            <button class="button2" onclick="btnslide(1)">&#10095;</button>
+          </div>
+        </div> 
+        <div class="uudai">
+          <div class="iteam">
+            <span class="iconuudai">
+              <img src="https://bizweb.dktcdn.net/100/365/442/themes/737549/assets/image-shipping1.png?1664720334923" alt="">
+            </span>
+            <span class="textuudai" >Vận chuyển toàn quốc</span>
+          </div>   
+          <div class="iteam">
+            <span class="iconuudai">
+              <img src="https://bizweb.dktcdn.net/100/365/442/themes/737549/assets/image-shipping2.png?1664720334923" alt="">
+            </span>
+            <span class="textuudai">Hỗ trợ 24/7, Gọi bất cứ lúc nào</span>
+          </div>   
+          <div class="iteam">
+            <span class="iconuudai">
+              <img src="https://bizweb.dktcdn.net/100/365/442/themes/737549/assets/image-shipping3.png?1664720334923" alt="">
+            </span >
+            <span class="textuudai">Cam kết chính hãng, thanh toán an toàn</span>
+          </div>   
+          <div class="iteam">
+            <span class="iconuudai">
+              <img src="https://bizweb.dktcdn.net/100/365/442/themes/737549/assets/image-shipping4.png?1664720334923" alt="">
+            </span >
+            <span class="textuudai" >Ưu đã hấp dẫn, giảm đến 60%</span>
+          </div>
+        </div>
+        <div class="newproduct">
+          <h2>
+            <a class="thanhdocnewproduct">:</a>
+            <a class="textnewproduct" href="">Sản phẩm mới nhất</a></h2>
+        </div>
+        <div class="productkhoanphunvanep">
+          <div class="itemproduct">
+            <a href="" title="MÁY KHOAN TỪ NITTO WOJ-3200">
+            <img class="imgnewproduct" src="https://bizweb.dktcdn.net/thumb/large/100/365/442/products/1451364213-may-khoan-tu-woj3200.jpg?v=1569811601547" >
+            </img>
+            </a>
+            <a class="textproduct" href="">MÁY KHOAN TỪ NITTO WOJ-3200 <br>2.600.000₫ </a>
+            <a class="aeye" href="" title="Xem nhanh">
+              <i class="fa fa-eye"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+<script>
+  var slideIndex = 1;
+  showDivs(slideIndex);
+  
+  function btnslide(n) {
+    showDivs(slideIndex += n);
+  }
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    x[slideIndex-1].style.display = "block";  
+  }
+  </script>
 </body>
 </html>

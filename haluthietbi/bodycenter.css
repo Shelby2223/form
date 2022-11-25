@@ -1,0 +1,125 @@
+.body{
+    background-color: rgb(221, 216, 216);
+}
+
+@media (min-width:0px) and (max-width:820px){
+    .button1{
+        height: 10%;
+    }
+}
+.bodycenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    padding-top: 180px; 
+}
+.content{
+    border: 10PX solid rgb(255, 255, 255);
+}
+
+.button1{
+    position: absolute;
+    border: 2px solid rgb(255, 255, 255);
+    border-left: none;
+    background-color: rgb(255, 255, 255,0.2);
+    top: 60%;
+    left: 9.4%; 
+    width: 45px;
+    height: 45px;
+}
+.button2{
+    position: absolute;
+    background-color: rgb(255, 255, 255,0.2);
+    border: 2px solid rgb(255, 255, 255);
+    border-right: none;
+    top: 60%;
+    right: 9.4%;
+    width: 45px;
+    height: 45px;
+}
+
+.content .slide:hover{
+    background-color: rgb(255, 255, 255,0.2);
+}
+/* uudai */
+.uudai{
+    display: flex;
+}
+.iteam{
+font-size: 14px;
+color: #333;
+display: flex;
+width: 25%;
+padding: 20px 10px;
+align-items: center;
+border-right: 1px solid #eee;
+background-color: #fff;
+}
+.iteam .iconuudai{
+width: 120px;
+text-align: center;
+}
+.iteam .textuudai{
+    text-transform: uppercase;
+    text-align: left;
+}
+.newproduct{
+    margin-top: 3%;
+}
+.newproduct .thanhdocnewproduct {
+    content: "";
+    display: inline-block;
+    width: 6px;
+    background: #f26522;
+    margin-right: 20px;
+    color: #f26522;
+    text-decoration: none;
+}
+.newproduct h2 .textnewproduct{
+    color: #000000;
+    display: inline-block;
+    text-decoration: none;
+    width: 40%;
+    margin-left: 5%;
+    text-transform: uppercase;
+}
+/* product */
+.productkhoanphunvanep{
+    display: flex;
+}
+.itemproduct{
+    display: flex; 
+}
+.imgnewproduct{
+    height: 70%;
+    padding-top: 20px;
+}
+.itemproduct .aeye{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 100px 100px 0 100px;
+    border-color: transparent transparent #ff0080 transparent;  
+}
+.textproduct{
+    text-decoration: none;
+    list-style-position: none;
+    height: 10%;
+    width: 23%;
+    position: absolute;
+    left:9%;
+    bottom: -95%;
+    color: black;
+    display: flex;
+}
+.itemproduct a i{
+    width: 100%;
+    height: 100%;
+    color: #ece1dc;
+    font-size: 150%;
+    text-align: center;
+    padding-top: 20%;
+}

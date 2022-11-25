@@ -84,7 +84,6 @@ input::placeholder {
     overflow: hidden;
 }
 
-
 @media (min-width:0px) and (max-width:820px){
     .header{
         height: 100px;
@@ -149,9 +148,6 @@ input::placeholder {
      .item-right .achu2{
         display: none; 
      }
-
-
-
 }
 
 .marqueenheader .spanheader{
@@ -159,7 +155,7 @@ input::placeholder {
     font-family: Verdana;
     animation: animateheaderct 25s infinite;
     display: inline-block;
-    width: 134%;
+    width: 135%;
     left: 200%;
 }
 
