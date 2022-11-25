@@ -6,11 +6,11 @@
 }
 .header{
     background-color: rgb(0, 0, 0);  
-    height: 20%;  
     position: fixed;
     display: flex;
     align-items: center;
     width: 100%;
+    height: 150px;
 }
 .menuheader{
     display: none;
@@ -22,7 +22,10 @@
     position: absolute;
     background-color: white;
     width: 85%;
-    position: absolute;
+    overflow-y: scroll;
+    line-height: 30px;
+    height: 400px;
+    padding-left: 5px;
 }
 .adanhmuc {
     color: white;
@@ -32,15 +35,24 @@
 }
 .ulheaderdanhmuc li {
     list-style-type: none;
-    
-    
 }
 .menuheader li a{
     text-decoration: none;
 }
-.adanhmuc:hover{
-    color: #fff;
-} 
+.tieudemin:hover{
+    color: #f26522;
+}
+.menuheader li:hover {
+    color: #ffffff;
+    background: #f26522;
+    width: 100%;
+}
+
+.menutab{
+    background-color: #f26522;
+    display: none;
+}
+
 .item-left {
     margin: 5%;
 }
@@ -52,65 +64,107 @@
     position: absolute;
     margin-left: -2%;
 }
-
 input,
 input::placeholder {
-    font: 100%/3 sans-serif;
-    
+    font: 100%/3 sans-serif;  
 }
+
+
+/* centerheader */
+
+
 .item-center{
     width: 50%;
     margin-left: -5%;
 }
 .item-center-top{
     color: #ffffff;
-    width: 97.5%;
+    max-width:100%;
     margin: 0 0 0% 2%;
     overflow: hidden;
-}
-.item-left {
-    margin: 5%;
-}
-.item-left-top{
-    position: relative;
-}
-.item-left-bottom{
-    padding-top: 0.5%;
-    position: absolute;
-    margin-left: -2%;
 }
 
-input,
-input::placeholder {
-    font: 100%/3 sans-serif;
-    
-}
-.item-center{
-    width: 50%;
-    margin-left: -5%;
-}
-.item-center-top{
-    color: #ffffff;
-    width: 97.5%;
-    margin: 0 0 0% 2%;
-    overflow: hidden;
+@media (min-width:0px) and (max-width:820px){
+    .header{
+        height: 100px;
+    }
+    .item-center-top{
+        display: none;
+    }
+    .fas{
+        background-color: #f26522;
+    }
+    .menutab{
+        font-size: 70%;
+        display: flex;
+        background-color: #f26522;
+        text-decoration: none;
+    }
+    .ulheaderdanhmuc{
+        margin-top: -50%;
+        margin-left: 80% ;
+    }
+    .adanhmuc{
+        display: none;
+    }
+    .logoheader{
+        width: 55%;
+        margin-left: 50%;
+    }
+    .item-center-bottom{
+        margin-left: 5%;
+    }
+    .menuheader{
+    width: 300px;
+    background-color: white;
+    margin-left: -180%;
+    overflow-y: scroll;
+    top: -65px;
+    height: 500px;
+    line-height: 30px;
+    }
+    .item-right .fas{
+        font-size: 200%;
+        height: 30px;
+        background-color: rgb(0, 0, 0);
+    }
+    .item-right .cartCount{
+        font-size: 15px;
+        position: relative;
+        margin-top: 3px;
+    }
+    .item-right .fa{
+        font-size: 200%;
+        height: 30px;
+        background-color: rgb(0, 0, 0);
+        margin-top:-3px ;
+    }
+    .item-right .achu1{
+       display: none; 
+    }
+    .item-right .achu{
+        display: none; 
+     }
+     .item-right .achu2{
+        display: none; 
+     }
 }
 
 .marqueenheader .spanheader{
     font-size: 14px;
     font-family: Verdana;
-    animation: animateheaderct 20s infinite;
+    animation: animateheaderct 25s infinite;
     display: inline-block;
-    width: 134%;
+    width: 135%;
     left: 200%;
 }
 
 @keyframes animateheaderct {
     0% {
-            transform: translateX(97.5%);
+            transform: translateX(75%);
         }
     100%{
-    transform: translateX(-97.5%);
+    transform: translateX(-100%);
     }
 }
 

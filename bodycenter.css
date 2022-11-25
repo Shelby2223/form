@@ -1,14 +1,19 @@
 .body{
     background-color: rgb(221, 216, 216);
 }
+
+@media (min-width:0px) and (max-width:820px){
+    .button1{
+        height: 10%;
+    }
+}
 .bodycenter{
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
     text-align: center;
-    padding-top: 10%;
-    
+    padding-top: 180px; 
 }
 .content{
     border: 10PX solid rgb(255, 255, 255);
@@ -20,8 +25,7 @@
     border-left: none;
     background-color: rgb(255, 255, 255,0.2);
     top: 60%;
-    left: 9.4%;
-    transform: translateY(-50%);
+    left: 9.4%; 
     width: 45px;
     height: 45px;
 }
@@ -32,7 +36,6 @@
     border-right: none;
     top: 60%;
     right: 9.4%;
-    transform: translateY(-50%);
     width: 45px;
     height: 45px;
 }
@@ -69,7 +72,6 @@ text-align: center;
     content: "";
     display: inline-block;
     width: 6px;
-    position: absolute;
     background: #f26522;
     margin-right: 20px;
     color: #f26522;
@@ -86,11 +88,13 @@ text-align: center;
 /* product */
 .productkhoanphunvanep{
     display: flex;
-
 }
 .itemproduct{
-    display: flex;
-    
+    display: flex; 
+}
+.imgnewproduct{
+    height: 70%;
+    padding-top: 20px;
 }
 .itemproduct .aeye{
     position: absolute;
@@ -99,6 +103,17 @@ text-align: center;
     border-style: solid;
     border-width: 100px 100px 0 100px;
     border-color: transparent transparent #ff0080 transparent;  
+}
+.textproduct{
+    text-decoration: none;
+    list-style-position: none;
+    height: 10%;
+    width: 23%;
+    position: absolute;
+    left:9%;
+    bottom: -95%;
+    color: black;
+    display: flex;
 }
 .itemproduct a i{
     width: 100%;
